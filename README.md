@@ -20,6 +20,9 @@
 <br>
 🚀Acesse o projeto web:https://guedes-hub.github.io/Jo-ken-po/
 <br>
+🚀Projeto no meu github: https://github.com/Guedes-hub/Jo-ken-po/tree/main
+<br>
+
 🚀Plano de fundo  troca a cada atualização da página 😊
 <br>
 <br>
