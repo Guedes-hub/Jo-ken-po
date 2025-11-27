@@ -4,56 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site - Áurea Guedes site teste S2 y </title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-    </style>
-
-
+    <title>Projeto Jo-ken-pô</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <a class="header-topo">Produtos</a>
-        <a class="header-topo">Empresa</a>
-        <a class="header-topo">Blog</a>
-        <a class="header-topo">Log in</a>
+    <div class="container">
+        <h1>Jo ken po 🎰</h1>
 
-        <button class="button-topo">Increva-se</button>
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')">&#x1f590;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270c;</button>
+        </div>
 
+        <p class="result"></p>
 
-
-    </header>
-
-
-
-    <main>
-        <img src="assets/img/AUREA.png" alt="aurea-imagem">
-        <section>
-            <h1>Projetos em tecnologia</h1>
-            <p>Realizando projetos técnicos nos diversos setores empresariais, refência em atendimento nacional e
-                internacional, contamos com um time de especialistas com as melhores formações tecnológicas do mercado.
-            </p>
-            <a class="link-bottom">Saiba mais</a>
-
-
-        </section>
+        <p class="your-score">Sua pontuação: <span class="span-your">0</span></p>
+        <p class="machine-score">Pontuação da máquina: <span class="span-machine">0</span></p>
 
 
 
 
+    </div>
 
+    <script src="./assets/js/scripts.js"></script>
 
-
-
-
-
-
-
-
-    </main>
-    <footer>Aurinha direitos reservados 2025</footer>
 </body>
 
 </html>
